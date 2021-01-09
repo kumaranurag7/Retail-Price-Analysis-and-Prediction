@@ -6,3 +6,5 @@ Evaluation metric: RMSE (Root mean squared error).
 
 Main Topics Covered: Data Cleaning and Visualisaton, Feature Engineering, Over-sampling, Model Building, & hyper-parameter tuning.
 Models used: LinearRegression, Lasso, Ridge, RandomForestRegressor, XGBRegressor.
+
+Machinehack Dataset link: https://www.machinehack.com/hackathons/retail_price_prediction_mega_hiring_hackathon/data
