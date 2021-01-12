@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  background-image: url('https://i.imgur.com/MIUm5Fh.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+<center>
+    <h1 style="color:white;"> Retail stock Price Prediction </h1><br>
+</center>
+</head>
+
+    <body>
+    <center>
+                                
+                                <form method="POST", action="{{url_for('home')}}">
+                                <b style="color:white;">
+				    
+                                    Invoice Number : <input type="number" name= "InvoiceNo" placeholder="ex:12678"><br>	
+                                    Stock Code <input  type="number" name= "StockCode" placeholder="   ex:1292"><br>
+                				    Transaction Type ID <input  type="number" name= "Description" placeholder="ex:59"><br>
+                				    Quantity <input  type="number" name= "Quantity"><br>
+                				    Customer ID <input  type="number" name= "CustomerID" placeholder="ex:1714"><br>
+                				    Country ID <input  type="number" name= "Country" placeholder="1-35"><br>
+                				    Date <input  type="text" name= "Date" placeholder="yyyy-mm-dd "><br>
+                				    Time <input  type="text" name= "Time" placeholder="hh-mm "><br></b>
+				    
+				    
+                                    
+				    <br>
+
+                                    <button >Predict Stock Price</button>
+                                </form>
+
+            <!-- Header End -->
+            
+            
+            
+
+        </div>
+
+
+    </center>
+    </body>
+</html>
